@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home-container{
+   height: 141vh;   /* background-image:linear-gradient(to top, rgba(0, 0, 0, 0.5)50%,rgba(0, 0, 0, 0.5)50%), url("../Assets/dark.jpg"); */
+   background-repeat: no-repeat;
+   background-size: cover;
+
+
+   animation-name:animate ;
+   animation-duration:10s ;
+   animation-direction: alternate-reverse ;
+   animation-fill-mode: forwards;
+   animation-timing-function: ease-in-out ;
+   animation-play-state:running ;
+   animation-iteration-count: infinite ;
+   
+}
+
+@keyframes animate{
+      0%{ background-image: url(../Assets/dark.jpg);}
+
+      40%{ background-image: url(../Assets/Antelope.jpg);}
+
+20%{ background-image: url(../Assets/zebras.jpg);
+}
+
+30%{ background-image: url(../Assets/sun.jpg);
+}
+
+100%{ background-image: url(../Assets/img.jpg);
+}
+
+
+
+ 
+}
+.home-bg h1{
+    
+    text-align: center;
+    margin-top: 6%;
+    color:white;
+    font-family:DinPro, sans-seri ;
+    font-size: 45px;
+    font-weight:900;
+}
+.quote-div{
+    margin-top: 100px;
+    color:white;
+    margin-left: 900px;
+    height: 38vh;
+    width: 20%;
+    border-radius: 13px;
+    background-color: rgba(0, 0, 0, 0.562);
+    padding: 20px;
+
+}
+.quote-div h2{
+    color:white;
+}
+.quote-div p{
+    margin-top: 20px;
+}
+.places{  
+    /* background-color: blue; */
+    display: flex;
+    height: 48vh;
+    
+    margin-top: 50px;
+    width: 100%;
+}
+.place-container{ color: black;
+    /* align-items: center; */
+    margin-left: 130px;
+    text-align: center;
+    margin-top: 400px;
+    height: 120vh;
+    /* background-color: crimson; */
+    
+
+}
+.container{
+    position:relative;
+    width:20%;
+    height:90%;
+    margin-left:100px;
+}
+.container ul {
+    font-size: larger;
+    height: 10vh;
+    bottom:-5.2%;
+    border-radius: 18px;
+    font-weight: bolder;
+    color: white;
+    position:absolute;
+     background-color: rgba(0, 0, 0, 0.644);
+      /* padding:5px; */
+    width: 100%;
+    text-align: center;
+    
+    
+}
+
+.container img{
+    height: 37vh;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 18px; 
+    opacity: rgba(0, 0, 0, 0.534);
+}
+.place2{ object-fit: cover;
+    /* background-color: darkgreen; */
+    height: 48vh;
+    display: flex;
+    /* margin-left: 110px; */
+}
+
+

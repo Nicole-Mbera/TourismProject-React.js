@@ -1,0 +1,240 @@
+.aboutus-container{
+    background:linear-gradient( to right bottom,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+    ),url(../Assets/img.jpg);
+    background-size: cover;
+    height: 80vh;
+    background-attachment:fixed;
+    opacity: rgba(0, 0, 0, 0.836);
+    
+}
+.fgh{
+    height:40vh;
+}
+.main{
+    background-color:white;
+    height:30vh;
+    width:100%;
+ 
+}
+.fgh ul{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: 900;
+    padding: 130px;
+    list-style: none;
+}
+.main{ height: 155vh;
+    /* background-color: black; */
+    
+}
+.main h1{
+    margin-top: 140px;
+    text-align: center;
+    font-weight: 790;
+
+}
+.pictures{
+    margin-top: 30px;
+    display: flex;
+}
+.pictures img{
+    margin-left: 20px;
+    width:30%;
+    object-fit: cover;
+}
+.card{ 
+    margin-left:6.7%;
+    display: flex;
+   height: 43.5vh;
+   width:100%;
+    /* background-color: brown;  */
+}
+.card img{
+   margin-top: 30px;
+}
+.details{ box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.589);
+   border-radius: 21px;
+   padding: 50px;
+   margin-top: 30px;
+   margin-left: 20px; 
+   height: 38vh;
+   width: 50%;
+   background-color:white;
+
+}
+.details h1{ 
+    margin-top: -30px;
+   text-align: center;
+   cursor: pointer;
+}
+.details p{
+   font-size: larger;
+   margin-top: 20px;
+}
+.variables{
+   /* margin-top: 40px; */
+   height: 70%
+}
+.last-section{
+    display: flex;
+}
+.last-section h3{
+    margin-left: 100px;
+    font-size: 23px;
+}
+.more{
+    cursor: pointer;
+}
+.more:hover{
+    text-decoration: underline;
+    color: rgb(0, 110, 255);
+}
+
+.tour-container{
+    margin-top: 20px; 
+    background-color:white;
+ 
+}
+
+.singletour-container img{
+    height: 80vh;
+    width: 100%;
+    object-fit: cover;
+    padding: 40px;
+}
+
+.singletour-container{
+    height: 150vh;
+    /* background-color: tomato; */
+}
+
+.singletour-container h1{
+    text-align: center;
+}
+.introduction {margin-top: 23px;
+    height: 40vh;
+    /* background-color: blueviolet; */
+    color: black;
+    font-size: x-large;
+    padding: 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contactus{
+     background-color:white; 
+    width:100%;
+     margin-top: 20px; 
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:500px;
+    position:relative;
+    height:1vh;
+   
+}
+.map-responsive iframe{
+    left:100px;
+    top:50px;
+    height:55vh;
+    width:75%;
+    position:absolute;
+}
+
+ .contactnow{
+display: flex;
+ margin-top: -490px; 
+height: 70vh;
+width: 100%;
+}
+
+.Headers{ color: rgb(2, 65, 90);
+    font-weight: 700;
+    font-size: xx-large;
+    text-align: center;
+}
+.message{ 
+    
+    margin-left:50px;
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    height:65vh;
+    width:40%;
+    margin-top: 500px;
+    box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.692);
+}
+.message label{
+    font-size: 28px;
+    margin-left: 40px;
+
+   
+}
+.email input{
+    width: 282px;
+    margin-left: 38px;
+    border: none;
+    height: 4.5vh;
+    /* border-radius: 13px; */
+    box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.692);
+} 
+.our-contact{
+    margin-left:50px;
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    height:65vh;
+    width:40%;
+    margin-top: 500px;
+    box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.692);
+    font-size: x-large;
+
+}
+.our-contact ul{
+    list-style: none;
+    padding: 20px;
+}
+/* .social-media{
+    display: flex;
+} */
+.medias{
+    margin-left: 240px;
+    margin-top: -100px;
+    color: rgb(2, 65, 90);
+    display: flex;
+}
+.icon{
+    margin-left: 10px;
+font-size: 35px;
+    
+}
+.title{
+   /* width:40%; */
+   font-size: 25px;
+   color: black;
+   margin-top: -70px;
+   margin-left: 0;
+   padding: 20px;
+   
+}
+.type input{
+    height: 20vh;
+    width: 60%;
+    box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.692);
+    margin-left: 100px;
+    border: none;
+    margin-left: 150px;
+}
+.submit{
+    margin-left: 340px;
+    border-radius: 13px;
+    width: 100px;
+    height: 5vh;
+    margin-top: 30px;
+    box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.692);
+    border: none;
+    font-size: 22px;
+    color:  rgb(0, 61, 87);
+    font-weight: bold;
+}

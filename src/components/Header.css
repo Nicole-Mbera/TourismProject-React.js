@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+.header-container{
+    /* background-color:black; */
+    width: 100%;
+    height: 15vh;
+    padding:5px;
+    display: flex;
+
+}
+
+  
+.logo-division{
+    width: 10%;
+    height: 10vh;
+}
+.logo-division img{
+    width: 100%;
+    height:10vh;
+    margin-top: 15px;
+    margin-left: 12px;
+
+
+}
+.Navbar{
+    width:90%;
+    margin-top: 15px;
+    margin-right: 40px;
+}
+
+.Navbar a{
+    margin-right: 50px;
+    float: right;
+    padding: 27px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+.Navbar a:hover {
+    font-size: 19px;
+  text-decoration: underline;
+  color: white;
+}

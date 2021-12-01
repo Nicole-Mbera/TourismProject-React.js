@@ -1,0 +1,37 @@
+[
+    {
+        "firstname": "Atete",
+        "lastname": "Kerria",
+        "email": "Akeria@gmail.com",
+        "phone": "+250785135216",
+        "address": "Kacyiru"
+      },
+      {
+        "firstname": "Ishimwe",
+        "lastname": "Diane",
+        "email": "ishimwe@gmail.com",
+        "phone": "+250785135216",
+        "address": "Kacyiru"
+      },
+      {
+        "firstname": "Mbera",
+        "lastname": "Nicole",
+        "email": "nicole@gmail.com",
+        "phone": "+250785135216",
+        "address": "Kacyiru"
+      },
+      {
+        "firstname": "Gasaro",
+        "lastname": "Cyntia",
+        "email": "cynthia@gmail.com",
+        "phone": "+250785135216",
+        "address": "Kicukiro"
+      },
+      {
+        "firstname": "Karabo",
+        "lastname": "Merveille",
+        "email": "karabo@gmail.com",
+        "phone": "+250785135216",
+        "address": "Gikondo"
+      }
+]

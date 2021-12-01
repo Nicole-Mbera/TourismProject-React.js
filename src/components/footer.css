@@ -1,0 +1,86 @@
+*{ margin: 0;
+    padding: 0;
+}
+
+.footer{
+      margin-top: 1000px;  
+    width:100%;
+
+}
+.footer h3{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+.ourservices{
+    
+    margin-top: 20px;
+    height: 25vh;
+    width: 25%;
+    color: white;
+    font-size: 15px;
+    padding: 30px;
+}
+.ourservices h1{
+    color: white;
+    text-decoration: underline;
+    font-size: larger;
+   
+}
+.list{
+    list-style-type: none;
+
+}
+
+.Adress{
+    margin-top: 20px;
+    height: 25vh;
+    width: 25%;
+    color: white;
+    font-size: 15px;
+    padding: 30px;
+    float: right;
+
+}
+
+.Adress h1{
+    text-decoration: underline;
+    font-size: larger;
+    color: white;
+}
+
+.footer-main{
+    display: flex;
+    background-color: black
+
+}
+.contact{
+    height: 25vh;
+    margin-right: 150px;
+    margin-top: 40px;
+    color: white;
+}
+.contact h1{
+    text-decoration: underline;
+    font-size: larger;
+    color: white;
+}
+.social-media{
+    width: 20%;
+    height: 25vh;
+    margin-right: 40px;
+    margin-top: 40px;
+    color: white;
+}
+.social-media h1{
+    text-decoration: underline;
+    font-size: larger;
+    color: white; 
+}
+.media-container{
+    display: flex;
+    margin-top: 25px;
+}
+
+
+
