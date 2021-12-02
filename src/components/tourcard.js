@@ -21,7 +21,7 @@ const Tourcard=({data})=>{
       
 
     return(  <>
-        <Drawer title="Basic Drawer" placement="left" visible={drawerVisble} width={730} onClose={closeDrawervisble}>
+        <Drawer placement="left" visible={drawerVisble} width={730} onClose={closeDrawervisble}>
         <SingleTour data={ data}/>
                 </Drawer>
 

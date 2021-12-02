@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 import "./Header.css"
-import logo from "../Assets/latest logo.jpg"
+import logo from "../Assets/logo.jpg"
 import { Modal, Form, Input,Button } from "antd";
 import {useNavigate} from "react-router-dom";
 const Header=()=>{
@@ -31,7 +31,7 @@ const Navigate= useNavigate ();
         <Form.Item label="Password" name="password" rules={[{ required: false}]}>
             <Input type="password"/>
         </Form.Item>
-        <Button htmlType="submit" onclick={()=>{localStorage.setItem("userLogIn",true); Navigate("/dash/createtour")}}
+        <Button htmlType="submit" onClick={()=>{localStorage.setItem("userLogIn",true); Navigate("/dash/createtour")}}
         
         >Log in</Button>
     </Form>
@@ -39,7 +39,7 @@ const Navigate= useNavigate ();
 
 <div className="header-container"> 
 <div className="logo-division">
-    <img src={logo} alt=""></img>
+    <img src= {logo}></img>
      </div>
      <div className="Navbar">
          <a href="/Createtour"> Createtour</a>

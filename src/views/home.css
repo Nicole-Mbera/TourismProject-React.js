@@ -66,6 +66,7 @@
     /* background-color: blue; */
     display: flex;
     height: 48vh;
+    flex-wrap: wrap;
     
     margin-top: 50px;
     width: 100%;
@@ -85,6 +86,7 @@
     width:20%;
     height:90%;
     margin-left:100px;
+    margin-top: 40px;
 }
 .container ul {
     font-size: larger;
@@ -94,7 +96,7 @@
     font-weight: bolder;
     color: white;
     position:absolute;
-     background-color: rgba(0, 0, 0, 0.644);
+      background-color: rgba(0, 0, 0, 0.644);
       /* padding:5px; */
     width: 100%;
     text-align: center;

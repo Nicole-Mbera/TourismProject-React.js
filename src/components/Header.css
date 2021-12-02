@@ -13,14 +13,19 @@
 
   
 .logo-division{
-    width: 10%;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    width: 12%;
     height: 10vh;
+    /* background-color: white */
 }
 .logo-division img{
-    width: 100%;
-    height:10vh;
-    margin-top: 15px;
-    margin-left: 12px;
+    object-fit: cover;
+    
+    height: 10vh;
+    width: 60%;
+    
 
 
 }

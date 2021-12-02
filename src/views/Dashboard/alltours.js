@@ -28,7 +28,7 @@ const Column = [
         key: 'seats',
     },
     {
-        title: 'Price (rwf)',
+        title: 'Price ($)',
         dataIndex: 'price',
         key: 'price',
     },
