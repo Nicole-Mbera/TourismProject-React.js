@@ -42,7 +42,6 @@ const Navigate= useNavigate ();
     <img src= {logo}></img>
      </div>
      <div className="Navbar">
-         <a href="/Createtour"> Createtour</a>
          <a href="/Tours"> Tours </a>
         <a href="#"onClick={()=> setVisible(true)}>Sign in</a>
          <a href="/contact"> Contact us</a>
