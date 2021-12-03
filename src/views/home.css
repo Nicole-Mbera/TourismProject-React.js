@@ -49,8 +49,8 @@
     margin-top: 100px;
     color:white;
     margin-left: 900px;
-    height: 38vh;
-    width: 20%;
+    height: 40vh;
+    width: 22%;
     border-radius: 13px;
     background-color: rgba(0, 0, 0, 0.562);
     padding: 20px;
@@ -60,7 +60,17 @@
     color:white;
 }
 .quote-div p{
-    margin-top: 20px;
+    margin-top: 15px;
+}
+.button{ 
+    border: none;
+    margin-top: 23.5px;
+    margin-left: 63px;
+    width: 50%;
+    height: 5.5vh;
+    border-radius: 13px;
+    
+
 }
 .places{  
     /* background-color: blue; */

@@ -21,6 +21,8 @@ const Home = ({ data }) => {
                         Architecto explicabo officia accusamus perspiciatis magni laboriosam esse,
                         sit fuga tenetur aspernatur iusto inventore ipsam,
                         voluptatibus earum cum itaque tempora sapiente illum!</p>
+
+                        <button className="button" htmlType="submit"> <a href="/tours">Book now</a></button>
                 </div>
                 <div className="place-container"><h1> Places to visit in Rwanda before you die!</h1>
                     <div className="places">

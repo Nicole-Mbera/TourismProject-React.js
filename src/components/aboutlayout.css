@@ -238,3 +238,14 @@ font-size: 35px;
     color:  rgb(0, 61, 87);
     font-weight: bold;
 }
+.book{
+    width: 30%;
+    margin-left: 400px;
+    height: 6vh;
+    margin-top: 5px;
+    border-radius: 18px;
+    font-size: larger;
+    background-color: rgb(10, 117, 163);
+    color: white;
+    border: none
+}

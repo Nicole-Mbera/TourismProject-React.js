@@ -1,4 +1,5 @@
 import React from "react";
+import Aboutlayout from "./aboutlayout";
 
 const SingleTour = ({ data }) => {
     return (
@@ -12,7 +13,7 @@ const SingleTour = ({ data }) => {
 
                 <div><h2>Date:{data.dateScheduled}</h2></div>
                 <div> <h2> Available seats: 25/40</h2></div>
-
+                <button className="book">Book Now</button>
         </div>
     )
 }

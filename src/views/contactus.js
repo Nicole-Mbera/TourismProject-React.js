@@ -52,7 +52,7 @@ return(
                     
                     <div className="medias">
 
-                    <div className="icon"><LinkedinOutlined /></div>
+                    <div className="icon"><a href="https://www.instagram.com/"><LinkedinOutlined /></a></div>
                     <div className="icon"><InstagramOutlined /></div>
                     <div className="icon"><TwitterOutlined /></div>
 
