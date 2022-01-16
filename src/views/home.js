@@ -15,15 +15,15 @@ const Home = ({ data }) => {
                 <div className="home-bg">
                     <h1> Rwanda Booking Tours</h1>
                 </div>
-                <div className="quote-div">
+                {/* <div className="quote-div">
                     <h2> Book a tour with us </h2>
                     <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                         Architecto explicabo officia accusamus perspiciatis magni laboriosam esse,
                         sit fuga tenetur aspernatur iusto inventore ipsam,
-                        voluptatibus earum cum itaque tempora sapiente illum!</p>
+                        voluptatibus earum cum itaque tempora sapiente illum!</p> 
 
                         <button className="button" htmlType="submit"> <a href="/tours">Book now</a></button>
-                </div>
+                </div> */}
                 <div className="place-container"><h1> Places to visit in Rwanda before you die!</h1>
                     <div className="places">
 

@@ -3,16 +3,15 @@ import Home from "../views/home";
 import About from "../views/aboutus";
 import Garelley from "../views/garelley";
 import Createtour from "../views/Dashboard/Createtour";
-import {
-    Routes, Route, useLocation
-}
-    from "react-router-dom"
+import {Routes, Route, useLocation} from "react-router-dom"
 import Contactus from "../views/contactus";
 import SignIn from "../views/signin";
 import SignUp from "../views/signup";
 import Tours from "../views/tours";
 import Dashlayout from "../components/dashboardlayout";
 import Alltours from "../views/Dashboard/alltours";
+import afterBooking from "../views/afterBooking";
+
 
 const isUserLogedIn = localStorage.getItem("userLogIn");
 
@@ -30,6 +29,9 @@ const Index = () => {
                 <Route path='/signin' element={<SignIn />} />
                 <Route path='/signup' element={<SignUp />} />
                 <Route path='/tours' element={<Tours />} />
+                <Route path='/afterBooking' element={<afterBooking/>}/>
+                
+               
             </Routes>
             {isUserLogedIn && currentUrl.includes("/dash") ? (
                 <Dashlayout>

@@ -3,13 +3,14 @@
     padding: 0;
 }
 .home-container{
-   height: 141vh;   /* background-image:linear-gradient(to top, rgba(0, 0, 0, 0.5)50%,rgba(0, 0, 0, 0.5)50%), url("../Assets/dark.jpg"); */
+   height: 130vh;   
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.27)50%,rgba(0, 0, 0, 0.27)50%), url("../Assets/img.jpg"); 
    background-repeat: no-repeat;
    background-size: cover;
 
-
+ 
    animation-name:animate ;
-   animation-duration:10s ;
+   animation-duration:25s ;
    animation-direction: alternate-reverse ;
    animation-fill-mode: forwards;
    animation-timing-function: ease-in-out ;
@@ -21,16 +22,16 @@
 @keyframes animate{
       0%{ background-image: url(../Assets/dark.jpg);}
 
-      40%{ background-image: url(../Assets/Antelope.jpg);}
+      30%{ background-image: url(../Assets/Antelope.jpg);}
 
-20%{ background-image: url(../Assets/zebras.jpg);
+60%{ background-image: url(../Assets/zebras.jpg);
 }
 
-30%{ background-image: url(../Assets/sun.jpg);
+80%{ background-image: url(../Assets/sun.jpg);
 }
 
 100%{ background-image: url(../Assets/img.jpg);
-}
+} 
 
 
 
@@ -39,23 +40,23 @@
 .home-bg h1{
     
     text-align: center;
-    margin-top: 6%;
+    margin-top: 8%;
     color:white;
     font-family:DinPro, sans-seri ;
     font-size: 45px;
     font-weight:900;
 }
-.quote-div{
+/* .quote-div{
     margin-top: 100px;
     color:white;
     margin-left: 900px;
-    height: 40vh;
+    height: 20vh;
     width: 22%;
     border-radius: 13px;
     background-color: rgba(0, 0, 0, 0.562);
     padding: 20px;
 
-}
+} */
 .quote-div h2{
     color:white;
 }
@@ -77,26 +78,28 @@
     display: flex;
     height: 48vh;
     flex-wrap: wrap;
-    
-    margin-top: 50px;
+    margin-top: 10px;
     width: 100%;
 }
 .place-container{ color: black;
     /* align-items: center; */
     margin-left: 130px;
     text-align: center;
-    margin-top: 400px;
     height: 120vh;
     /* background-color: crimson; */
     
 
+}
+.place-container h1{
+
+margin-top: 700px;
 }
 .container{
     position:relative;
     width:20%;
     height:90%;
     margin-left:100px;
-    margin-top: 40px;
+    margin-top:40px;
 }
 .container ul {
     font-size: larger;
@@ -127,6 +130,7 @@
     height: 48vh;
     display: flex;
     /* margin-left: 110px; */
+    
 }
 
 

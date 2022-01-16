@@ -1,5 +1,5 @@
 import React from "react";
-import Aboutlayout from "./aboutlayout";
+
 
 const SingleTour = ({ data }) => {
     return (
@@ -8,12 +8,10 @@ const SingleTour = ({ data }) => {
 
             <img src={data.images} />
                 <p>{data.description [0]}</p>
-
-            
-
                 <div><h2>Date:{data.dateScheduled}</h2></div>
                 <div> <h2> Available seats: 25/40</h2></div>
-                <button className="book">Book Now</button>
+                <button className="book">Book now</button>
+    
         </div>
     )
 }
