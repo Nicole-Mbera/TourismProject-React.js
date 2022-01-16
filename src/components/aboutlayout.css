@@ -59,7 +59,7 @@
 .details{ box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.589);
    border-radius: 21px;
    padding: 50px;
-   margin-top: 30px;
+   margin-top: 68px;
    margin-left: 20px; 
    height: 38vh;
    width: 50%;
@@ -248,4 +248,9 @@ font-size: 35px;
     background-color: rgb(10, 117, 163);
     color: white;
     border: none
+}
+.Message{
+    background-color: black;
+    height: 30vh;
+    width: 60%
 }

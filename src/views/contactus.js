@@ -4,8 +4,6 @@ import { LinkedinOutlined } from '@ant-design/icons';
 import { InstagramOutlined } from '@ant-design/icons';
 import { TwitterOutlined  } from '@ant-design/icons';
 
-
-import Homelayout from"../components/homeLayout"
 const Contactus = () =>{
 return(
     <Aboutlayout>

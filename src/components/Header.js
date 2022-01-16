@@ -39,14 +39,15 @@ const Navigate= useNavigate ();
 
 <div className="header-container"> 
 <div className="logo-division">
-    <img src= {logo}></img>
+    <img src= "https://i.pinimg.com/originals/bc/8e/76/bc8e764bece45d88dfb31c6fcabca83a.png"></img>
      </div>
      <div className="Navbar">
-         <a href="/Tours"> Tours </a>
+        <a href="/contact"> Contact us</a>
         <a href="#"onClick={()=> setVisible(true)}>Sign in</a>
-         <a href="/contact"> Contact us</a>
+        <a href="/Tours"> Tours </a>
          <a href="/aboutus"> About us</a>
          <a href="/home"> Home </a>
+       
          
          </div>
 

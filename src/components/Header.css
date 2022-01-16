@@ -13,18 +13,18 @@
 
   
 .logo-division{
+    border-radius: 30px;
     margin-left: 10px;
     margin-top: 10px;
     padding: 5px;
-    width: 12%;
+    width: 17%;
     height: 10vh;
     /* background-color: white */
 }
 .logo-division img{
     object-fit: cover;
-    
     height: 10vh;
-    width: 60%;
+    width: 75%;
     
 
 

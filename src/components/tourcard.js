@@ -32,13 +32,11 @@ const Tourcard=({data})=>{
 </div>
 <div className="details">
     <h1 onClick={()=>handleclickDrawerVisible()}>{data.title}</h1>
-    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-        Fusce id nisl magna. 
-        In tincidunt maximus velit,
-         eget efficitur purus dignissim sit amet</p>
+    <p>{data.summary}</p>
          <div className="variables">
     <div><h2>Date:{data.dateScheduled}</h2></div>
-       <div className="last-section"> <h2> Available seats: 25/40 </h2>
+       <div className="last-section"> <h2> Available seats:{data.available} </h2>
+
        <h3 className="more" onClick={()=>handleclickDrawerVisible()}>Read more...</h3></div>
 
         {/* <h1>Read more...</h1> */}
