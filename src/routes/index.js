@@ -10,7 +10,7 @@ import SignUp from "../views/signup";
 import Tours from "../views/tours";
 import Dashlayout from "../components/dashboardlayout";
 import Alltours from "../views/Dashboard/alltours";
-import afterBooking from "../views/afterBooking";
+import AfterBooking from "../views/afterBooking";
 
 
 const isUserLogedIn = localStorage.getItem("userLogIn");
@@ -29,7 +29,7 @@ const Index = () => {
                 <Route path='/signin' element={<SignIn />} />
                 <Route path='/signup' element={<SignUp />} />
                 <Route path='/tours' element={<Tours />} />
-                <Route path='/afterBooking' element={<afterBooking/>}/>
+                <Route path='/afterBooking' element={<AfterBooking/>}/>
                 
                
             </Routes>

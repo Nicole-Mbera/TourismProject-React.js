@@ -9,7 +9,7 @@ const About = () => {
             <Aboutlayout>
 
                 <div className="fgh">
-                    <ul>
+                    <ul className="List">
                         <li>Explore with Rwanda Booking tours</li>
                         <li>At the Heart of Africa</li>
                     </ul>

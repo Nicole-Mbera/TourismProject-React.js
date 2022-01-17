@@ -11,6 +11,7 @@
 }
 .fgh{
     height:40vh;
+
 }
 .main{
     background-color:white;
@@ -244,13 +245,26 @@ font-size: 35px;
     height: 6vh;
     margin-top: 5px;
     border-radius: 18px;
-    font-size: larger;
+    font-size: x-large;
     background-color: rgb(10, 117, 163);
     color: white;
     border: none
 }
-.Message{
-    background-color: black;
-    height: 30vh;
-    width: 60%
+.Photos{
+    margin-top: 10px;
+    height: 80vh;
+}
+.Photos img{
+    margin-left: 33px;
+    height:100%;
+    object-fit: cover;
+    width: 30%;
+}
+.additionalService{
+margin-top: 230px;
+/* background-color: chartreuse; */
+height: 30vh;
+padding: 50px;
+font-family: 'Times New Roman', Times, serif;
+font-size: xx-large;
 }
